@@ -1,16 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+@font-face {
+    font-family: my-font;
+    src: url(../georgia/georgiab.ttf);
+}
 *{
     font-family: var(--font-family-montserrat);
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Archivo Black', sans-serif;
-    font-weight: 800;
+    font-family: 'my-font', serif;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 p{
     line-height: 1.6;
 }
 :root{
-    --font-family-montserrat:'Nanum Myeongjo', serif;;
+    --font-family-montserrat:'my-font', serif;;
 }
 /* =================-| section-theNavbar |-===================== */
 h1::first-letter{

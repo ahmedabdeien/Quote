@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+*{
+    font-family: var(--font-family-montserrat);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 800;
+}
+p{
+    line-height: 1.6;
+}
+:root{
+    --font-family-montserrat:'Nanum Myeongjo', serif;;
+}
+/* =================-| section-theNavbar |-===================== */
+h1::first-letter{
+    color: blue;
+}
+.but {
+    font-weight: bold;
+    color: #fff;
+    background-color: blue;
+    border: 2px solid #000;
+    transition: all 0.3s ease;
+  }
+  .but:hover{
+    background-color: green;
+  }
+
+
+
